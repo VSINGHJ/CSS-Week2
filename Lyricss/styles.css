@@ -1,0 +1,180 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+
+.music {
+    font-family: cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: blueviolet;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% { text-indent: 100%; }
+    100% { text-indent: -100%; }
+}
+
+.song {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    transition: all 0.5s ease;
+}
+
+.singer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.9em;
+    text-align: center;
+    color: violet;
+    text-shadow: 2px 2px 4px black;
+}
+
+.lyrics {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    text-align: center;
+    font-family:cursive ;
+    font-size: 1.2em;
+    line-height: 1.3;
+    background: linear-gradient(to right, white, #fff);
+}
+
+.lyric1, .lyric2, .lyric3, .lyric4, .lyric5, .lyric6, .lyric7 {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
+}
+.lyric1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    color: #007BFF;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 5px;
+}
+.right-img {
+    float: right;
+    width: 18%; /* adjust as needed */
+    height: auto;
+    border: #000000;
+    border-radius: 10%;
+}
+
+.music1-img {
+    float: left;
+    width: 28%; /* adjust as needed */
+    height: auto;
+    border: #000000;
+    border-radius: 10%;
+}
+
+.music2-img {
+    float: right;
+    width:20%; /* adjust as needed */
+    height: auto;
+    border: #000000;
+    border-radius: 10%;
+}
+
+.music3-img {
+    float: left;
+    width: 18%; /* adjust as needed */
+    height: auto;
+    border: #000000;
+    border-radius: 10%;
+}
+
+.music4-img {
+    float: right;
+    width: 20%; /* adjust as needed */
+    height: auto;
+    border: #000000;
+    border-radius: 10%;
+}
+.music5-img {
+    float: left;
+    width: 39%; /* adjust as needed */
+    height: auto;
+    border: #000000;
+    border-radius: 10%;
+}
+.music6-img {
+    float: right;
+    width: 38%; /* adjust as needed */
+    height: auto;
+    border: #000000;
+    border-radius: 10%;
+}
+
+.lyric2 {
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    color: black;
+    background-color: steelblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lyric3 {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.2em;
+    color: red;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lyric4 {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2em;
+    color:white;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lyric5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: skyblue;
+    background-color: lavenderblush;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lyric6 {
+    font-family: 'Courier New', monospace;
+    font-size: 1.2em;
+    color: blue;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lyric7 {
+    font-family: cursive;
+    font-size: 1.2em;
+    color: black;
+    background-color:darkcyan;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.lyric1:hover, .lyric2:hover, .lyric3:hover, .lyric4:hover, .lyric5:hover, .lyric6:hover, .lyric7:hover {
+    transform: scale(1.10);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
